@@ -1,6 +1,6 @@
 package com.stevens
 
-class LabeledPoint(label: String, coordinate: Array[Float]) {
+class LabeledPoint(label: String, coordinate: Array[Int]) {
   val name: String = label
-  val vector: Array[Float] = coordinate
+  val vector: Array[Int] = coordinate
 }
