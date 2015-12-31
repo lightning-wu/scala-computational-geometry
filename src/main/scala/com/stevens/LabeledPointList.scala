@@ -13,7 +13,7 @@ class LabeledPointList(pointDimension: Int) extends Queryable {
       if (nearest == null) {
         nearest = possibleNearest
       } else {
-        if (DistanceUtil.euclidianDistance(possibleNearest.vector, point) < DistanceUtil.euclidianDistance(nearest.vector, point)) {
+        if (DistanceUtil.euclideanDistance(possibleNearest.vector, point) < DistanceUtil.euclideanDistance(nearest.vector, point)) {
           nearest = possibleNearest
         }
       }

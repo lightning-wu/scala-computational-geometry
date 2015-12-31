@@ -11,7 +11,7 @@ object DistanceUtil {
     }.sum
   }
 
-  def euclidianDistance(point1: Array[Int], point2: Array[Int]): Double = {
+  def euclideanDistance(point1: Array[Int], point2: Array[Int]): Double = {
     Math.sqrt(squaredDistance(point1, point2))
   }
 
